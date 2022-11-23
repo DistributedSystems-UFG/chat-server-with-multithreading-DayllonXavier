@@ -3,7 +3,7 @@ import pickle
 import const #- addresses, port numbers etc. (a rudimentary way to replace a proper naming service)
 import threading
 
-class WorkTread(threading.Thread):
+class WorkThread(threading.Thread):
     def __init__(self, connection):
         threading.Thread.__init__(self)
         self.connection = connection
@@ -65,7 +65,7 @@ while True:
     # Get a message from a sender client
     (conn, addr) = server_sock.accept()  # returns new socket and addr. client
     
-    workThread = WorkTread(conn)
+    workThread = WorkThread(conn)
     workThread.start()
 
     while(True):
