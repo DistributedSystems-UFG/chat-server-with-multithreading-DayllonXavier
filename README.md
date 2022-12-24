@@ -8,4 +8,4 @@ O arquivo "chatclient.py" é referente ao código do lado do cliente da aplicaç
 O arquivo "chatserver.py" é referente ao código do lado do servidor da aplicação.
 
 # Vídeo da apresentação
--
+O link para a apresentação do projeto está disponível aqui: https://youtu.be/AHTn3HNuUBI
